@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AB669C022207959300E73842"
+               BuildableName = "JamesValles Asssignment4.app"
+               BlueprintName = "JamesValles Asssignment4"
+               ReferencedContainer = "container:JamesValles Asssignment4.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AB669C022207959300E73842"
+            BuildableName = "JamesValles Asssignment4.app"
+            BlueprintName = "JamesValles Asssignment4"
+            ReferencedContainer = "container:JamesValles Asssignment4.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

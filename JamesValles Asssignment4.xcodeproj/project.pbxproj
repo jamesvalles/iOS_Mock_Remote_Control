@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB669C072207959300E73842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB669C062207959300E73842 /* AppDelegate.swift */; };
+		AB669C092207959300E73842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB669C082207959300E73842 /* ViewController.swift */; };
+		AB669C0C2207959300E73842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB669C0A2207959300E73842 /* Main.storyboard */; };
+		AB669C0E2207959500E73842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB669C0D2207959500E73842 /* Assets.xcassets */; };
+		AB669C112207959500E73842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB669C0F2207959500E73842 /* LaunchScreen.storyboard */; };
+		AB669C1C2207959500E73842 /* JamesValles_Asssignment4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB669C1B2207959500E73842 /* JamesValles_Asssignment4Tests.swift */; };
+		AB669C272207959500E73842 /* JamesValles_Asssignment4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB669C262207959500E73842 /* JamesValles_Asssignment4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB669C182207959500E73842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB669BFB2207959300E73842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB669C022207959300E73842;
+			remoteInfo = "JamesValles Asssignment4";
+		};
+		AB669C232207959500E73842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB669BFB2207959300E73842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB669C022207959300E73842;
+			remoteInfo = "JamesValles Asssignment4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB669C032207959300E73842 /* JamesValles Asssignment4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JamesValles Asssignment4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB669C062207959300E73842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB669C082207959300E73842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB669C0B2207959300E73842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB669C0D2207959500E73842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB669C102207959500E73842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB669C122207959500E73842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB669C172207959500E73842 /* JamesValles Asssignment4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JamesValles Asssignment4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB669C1B2207959500E73842 /* JamesValles_Asssignment4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesValles_Asssignment4Tests.swift; sourceTree = "<group>"; };
+		AB669C1D2207959500E73842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB669C222207959500E73842 /* JamesValles Asssignment4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JamesValles Asssignment4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB669C262207959500E73842 /* JamesValles_Asssignment4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesValles_Asssignment4UITests.swift; sourceTree = "<group>"; };
+		AB669C282207959500E73842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB669C002207959300E73842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB669C142207959500E73842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB669C1F2207959500E73842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB669BFA2207959300E73842 = {
+			isa = PBXGroup;
+			children = (
+				AB669C052207959300E73842 /* JamesValles Asssignment4 */,
+				AB669C1A2207959500E73842 /* JamesValles Asssignment4Tests */,
+				AB669C252207959500E73842 /* JamesValles Asssignment4UITests */,
+				AB669C042207959300E73842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB669C042207959300E73842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB669C032207959300E73842 /* JamesValles Asssignment4.app */,
+				AB669C172207959500E73842 /* JamesValles Asssignment4Tests.xctest */,
+				AB669C222207959500E73842 /* JamesValles Asssignment4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB669C052207959300E73842 /* JamesValles Asssignment4 */ = {
+			isa = PBXGroup;
+			children = (
+				AB669C062207959300E73842 /* AppDelegate.swift */,
+				AB669C082207959300E73842 /* ViewController.swift */,
+				AB669C0A2207959300E73842 /* Main.storyboard */,
+				AB669C0D2207959500E73842 /* Assets.xcassets */,
+				AB669C0F2207959500E73842 /* LaunchScreen.storyboard */,
+				AB669C122207959500E73842 /* Info.plist */,
+			);
+			path = "JamesValles Asssignment4";
+			sourceTree = "<group>";
+		};
+		AB669C1A2207959500E73842 /* JamesValles Asssignment4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB669C1B2207959500E73842 /* JamesValles_Asssignment4Tests.swift */,
+				AB669C1D2207959500E73842 /* Info.plist */,
+			);
+			path = "JamesValles Asssignment4Tests";
+			sourceTree = "<group>";
+		};
+		AB669C252207959500E73842 /* JamesValles Asssignment4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB669C262207959500E73842 /* JamesValles_Asssignment4UITests.swift */,
+				AB669C282207959500E73842 /* Info.plist */,
+			);
+			path = "JamesValles Asssignment4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB669C022207959300E73842 /* JamesValles Asssignment4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB669C2B2207959500E73842 /* Build configuration list for PBXNativeTarget "JamesValles Asssignment4" */;
+			buildPhases = (
+				AB669BFF2207959300E73842 /* Sources */,
+				AB669C002207959300E73842 /* Frameworks */,
+				AB669C012207959300E73842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JamesValles Asssignment4";
+			productName = "JamesValles Asssignment4";
+			productReference = AB669C032207959300E73842 /* JamesValles Asssignment4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB669C162207959500E73842 /* JamesValles Asssignment4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB669C2E2207959500E73842 /* Build configuration list for PBXNativeTarget "JamesValles Asssignment4Tests" */;
+			buildPhases = (
+				AB669C132207959500E73842 /* Sources */,
+				AB669C142207959500E73842 /* Frameworks */,
+				AB669C152207959500E73842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB669C192207959500E73842 /* PBXTargetDependency */,
+			);
+			name = "JamesValles Asssignment4Tests";
+			productName = "JamesValles Asssignment4Tests";
+			productReference = AB669C172207959500E73842 /* JamesValles Asssignment4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB669C212207959500E73842 /* JamesValles Asssignment4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB669C312207959500E73842 /* Build configuration list for PBXNativeTarget "JamesValles Asssignment4UITests" */;
+			buildPhases = (
+				AB669C1E2207959500E73842 /* Sources */,
+				AB669C1F2207959500E73842 /* Frameworks */,
+				AB669C202207959500E73842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB669C242207959500E73842 /* PBXTargetDependency */,
+			);
+			name = "JamesValles Asssignment4UITests";
+			productName = "JamesValles Asssignment4UITests";
+			productReference = AB669C222207959500E73842 /* JamesValles Asssignment4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB669BFB2207959300E73842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "DPU James Valles";
+				TargetAttributes = {
+					AB669C022207959300E73842 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AB669C162207959500E73842 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB669C022207959300E73842;
+					};
+					AB669C212207959500E73842 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB669C022207959300E73842;
+					};
+				};
+			};
+			buildConfigurationList = AB669BFE2207959300E73842 /* Build configuration list for PBXProject "JamesValles Asssignment4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB669BFA2207959300E73842;
+			productRefGroup = AB669C042207959300E73842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB669C022207959300E73842 /* JamesValles Asssignment4 */,
+				AB669C162207959500E73842 /* JamesValles Asssignment4Tests */,
+				AB669C212207959500E73842 /* JamesValles Asssignment4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB669C012207959300E73842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB669C112207959500E73842 /* LaunchScreen.storyboard in Resources */,
+				AB669C0E2207959500E73842 /* Assets.xcassets in Resources */,
+				AB669C0C2207959300E73842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB669C152207959500E73842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB669C202207959500E73842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB669BFF2207959300E73842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB669C092207959300E73842 /* ViewController.swift in Sources */,
+				AB669C072207959300E73842 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB669C132207959500E73842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB669C1C2207959500E73842 /* JamesValles_Asssignment4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB669C1E2207959500E73842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB669C272207959500E73842 /* JamesValles_Asssignment4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB669C192207959500E73842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB669C022207959300E73842 /* JamesValles Asssignment4 */;
+			targetProxy = AB669C182207959500E73842 /* PBXContainerItemProxy */;
+		};
+		AB669C242207959500E73842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB669C022207959300E73842 /* JamesValles Asssignment4 */;
+			targetProxy = AB669C232207959500E73842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB669C0A2207959300E73842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB669C0B2207959300E73842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB669C0F2207959500E73842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB669C102207959500E73842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB669C292207959500E73842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB669C2A2207959500E73842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB669C2C2207959500E73842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "JamesValles Asssignment4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesvalles.JamesValles-Asssignment4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB669C2D2207959500E73842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "JamesValles Asssignment4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesvalles.JamesValles-Asssignment4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AB669C2F2207959500E73842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "JamesValles Asssignment4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesvalles.JamesValles-Asssignment4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamesValles Asssignment4.app/JamesValles Asssignment4";
+			};
+			name = Debug;
+		};
+		AB669C302207959500E73842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "JamesValles Asssignment4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesvalles.JamesValles-Asssignment4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamesValles Asssignment4.app/JamesValles Asssignment4";
+			};
+			name = Release;
+		};
+		AB669C322207959500E73842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "JamesValles Asssignment4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesvalles.JamesValles-Asssignment4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JamesValles Asssignment4";
+			};
+			name = Debug;
+		};
+		AB669C332207959500E73842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "JamesValles Asssignment4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesvalles.JamesValles-Asssignment4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JamesValles Asssignment4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB669BFE2207959300E73842 /* Build configuration list for PBXProject "JamesValles Asssignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB669C292207959500E73842 /* Debug */,
+				AB669C2A2207959500E73842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB669C2B2207959500E73842 /* Build configuration list for PBXNativeTarget "JamesValles Asssignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB669C2C2207959500E73842 /* Debug */,
+				AB669C2D2207959500E73842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB669C2E2207959500E73842 /* Build configuration list for PBXNativeTarget "JamesValles Asssignment4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB669C2F2207959500E73842 /* Debug */,
+				AB669C302207959500E73842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB669C312207959500E73842 /* Build configuration list for PBXNativeTarget "JamesValles Asssignment4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB669C322207959500E73842 /* Debug */,
+				AB669C332207959500E73842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB669BFB2207959300E73842 /* Project object */;
+}
